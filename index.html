@@ -4,9 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="style_index.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <title>WelderWorld</title>
 </head>
 <body>
-    
+    <header class="header" id="home">
+        <img src="icons/menu.svg" class="menu">
+        <nav class="menu_nav">
+            <a href="">Inicio</a>
+            <a href="">Servicio</a>
+            <a href="">Portafolio</a>
+            <a href="">Contacto</a>
+        </nav>
+
+        <div class="contenedor head">
+            <h1 class="titulo">WelderWorld</h1>
+            <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, itaque!?</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="contenedor" id="servicio">
+            <h2 class="subtitulo">Nuestro servicio</h2>
+            <div class="contenedor_servicio">
+                <img src="img/foto1_servicio.jpg">
+                <div class="checklist_servicio">
+                    <div class="serv">
+                        <h3 class="n-serv"><span class="number">1</span> Diseño Web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus expedita unde ab quibusdam ad nihil, accusantium dolor. A, sunt possimus?</p>
+                    </div>
+                    <div class="serv">
+                        <h3 class="n-serv"><span class="number">2</span> Diseño Web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus expedita unde ab quibusdam ad nihil, accusantium dolor. A, sunt possimus?</p>
+                    </div>
+                    <div class="serv">
+                        <h3 class="n-serv"><span class="number">3</span> Diseño Web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus expedita unde ab quibusdam ad nihil, accusantium dolor. A, sunt possimus?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="portafolio">
+            <div class="contenedor">
+                <h2 class="subtitulo2">Galería</h2>
+                <div class="contenedor_galeria">
+                    <img src="img/foto1_galeria.jpg" class="img_galeria">
+                    <img src="img/foto2_galeria.jpg" class="img_galeria">
+                    <img src="img/foto3_galeria.jpg" class="img_galeria">
+                    <img src="img/foto4_galeria.jpg" class="img_galeria">
+                    <img src="img/foto5_galeria.jpg" class="img_galeria">
+                    <img src="img/foto6_galeria.jpg" class="img_galeria">
+                </div>
+            </div>
+        </section>
+
+        <section class="imagen_light">
+            <img src="icons/cerrar.png" class="cerrar">
+            <img src="img/foto1_galeria.jpg" class="agregar_imagen">
+        </section>
+
+        <section class="contenedor" id="exp">
+            <h2 class="subtitulo">Exp</h2>
+        </section>
+
+    </main>
+
+    <footer id="contactos">
+        <div class="contenedor footer_cont">
+            <div class="contactanos">
+                <h2 class="brand">Elias Cortes</h2>
+                <p>Welder experto</p>
+            </div>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=100063567041844" class="icono_redes"><i class='bx bxl-facebook-square'></i></a>
+                <a href="" class="icono_redes"><i class='bx bxl-instagram' ></i></a>
+                <a href="" class="icono_redes"><i class='bx bxl-tiktok' ></i></a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+
+
+    <script src="JavaScript/menu.js"></script>
+    <script src="JavaScript/galeria.js"></script>
 </body>
 </html>
