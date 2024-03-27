@@ -2,33 +2,35 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 body{
     font-family: 'Open Sans',sans-serif;
 }
 
-header{
+.header{
     height: 100vh;
-    border: solid thin #73E0F7;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/fondo1.webp);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-attachment: fixed = mantiene fija la imagen */
     background-attachment: fixed; 
     background-position: center;
+
+    display: flex;
+    align-items: center;
 }
 
 .menu{
-    position: fixed;
-    top: 30px;
-    left: 30px;
-    background-color: #E5E4E2;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    box-shadow: 0 0 6px rgba(0, 0, 0,0.5);
-    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .menu_nav{
