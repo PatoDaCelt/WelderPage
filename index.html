@@ -11,92 +11,112 @@
 
     <title>WelderWorld</title>
 </head>
+
 <body>
     <header class="header">
-        <a href="#" class="logo">Logo</a>
-        <input type="checkbox" id="menu">
-        <label for="menu">
-            <img src="icons/menu.png" class="menu-icono">
-        </label>
-        <nav class="navbar">
-            <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Servicio</a></li>
-                <li><a href="">Portafolio</a></li>
-                <li><a href="">Contacto</a></li>
-            </ul>
-        </nav>
+        <div class="menu contenedor">
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="icons/menu.png" class="menu-icono">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Servicio</a></li>
+                    <li><a href="">Portafolio</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
 
-        <div class="contenedor head">
-            <h1 class="titulo">WelderWorld</h1>
-            <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, itaque!?</p>
+        <div class="header-content contenedor">
+            <h1>WelderWorld</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, itaque!?</p>
+            <a href="" class="btn-1">Información</a>
         </div>
     </header>
 
     <main>
-        <section class="contenedor" id="servicio">
-            <h2 class="subtitulo">Nuestro servicio</h2>
-            <div class="contenedor_servicio">
-                <img src="img/foto1_servicio.jpg">
-                <div class="checklist_servicio">
-                    <div class="serv">
-                        <h3 class="n-serv"><span class="number">1</span> Diseño Web</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus expedita unde ab quibusdam ad nihil, accusantium dolor. A, sunt possimus?</p>
-                    </div>
-                    <div class="serv">
-                        <h3 class="n-serv"><span class="number">2</span> Diseño Web</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus expedita unde ab quibusdam ad nihil, accusantium dolor. A, sunt possimus?</p>
-                    </div>
-                    <div class="serv">
-                        <h3 class="n-serv"><span class="number">3</span> Diseño Web</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus expedita unde ab quibusdam ad nihil, accusantium dolor. A, sunt possimus?</p>
-                    </div>
+        <h1 class="subtitulo">Nuestro Servicio</h1>
+
+        <section class="servicios-section">
+            <article class="servicios">
+                <div class="servicio-container">
+                    <h2>Servicio 1</h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda omnis dignissimos vero dolorum minima at esse. Ratione eos odio a quae corporis expedita quam porro quidem, veritatis, dolorum neque aliquid.
+                    </p>
+                </div>
+                <div class="servicio-imagen1"></div>
+            </article>
+    
+            <article class="servicios">
+                <div class="servicio-imagen2"></div>
+                <div class="servicio-container">
+                    <h2>Servicio 1</h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda omnis dignissimos vero dolorum minima at esse. Ratione eos odio a quae corporis expedita quam porro quidem, veritatis, dolorum neque aliquid.
+                    </p>
+                </div>
+            </article>
+
+            <article class="servicios">
+                <div class="servicio-container">
+                    <h2>Servicio 1</h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda omnis dignissimos vero dolorum minima at esse. Ratione eos odio a quae corporis expedita quam porro quidem, veritatis, dolorum neque aliquid.
+                    </p>
+                </div>
+                <div class="servicio-imagen3"></div>
+            </article>
+        </section>
+
+        <section class="proyectos contenedor">
+            <h2 class="subtitulo">Proyectos</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem numquam voluptates labore.</p>
+            <div class="proyectos-content">
+                <div class="proyecto-1">
+                    <img src="img/foto4_galeria.jpg" alt="">
+                    <h3>Proyecto 1</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet sapiente laborum quod ut. Quod culpa commodi ullam illum sunt quidem. Doloremque at laboriosam sunt! Officia explicabo voluptatum consequatur. Id, officia.
+                    </p>
+                </div>
+                <div class="proyecto-1">
+                    <img src="img/foto5_galeria.jpg" alt="">
+                    <h3>Proyecto 2</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet sapiente laborum quod ut. Quod culpa commodi ullam illum sunt quidem. Doloremque at laboriosam sunt! Officia explicabo voluptatum consequatur. Id, officia.
+                    </p>
+                </div>
+                <div class="proyecto-1">
+                    <img src="img/foto6_galeria.jpg" alt="">
+                    <h3>Proyecto 3</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet sapiente laborum quod ut. Quod culpa commodi ullam illum sunt quidem. Doloremque at laboriosam sunt! Officia explicabo voluptatum consequatur. Id, officia.
+                    </p>
                 </div>
             </div>
+            <a href="" class="btn-1">Información</a>
         </section>
-
-        <section class="gallery" id="portafolio">
-            <div class="contenedor">
-                <h2 class="subtitulo2">Galería</h2>
-                <div class="contenedor_galeria">
-                    <img src="img/foto1_galeria.jpg" class="img_galeria">
-                    <img src="img/foto2_galeria.jpg" class="img_galeria">
-                    <img src="img/foto3_galeria.jpg" class="img_galeria">
-                    <img src="img/foto4_galeria.jpg" class="img_galeria">
-                    <img src="img/foto5_galeria.jpg" class="img_galeria">
-                    <img src="img/foto6_galeria.jpg" class="img_galeria">
-                </div>
-            </div>
-        </section>
-
-        <section class="imagen_light">
-            <img src="icons/cerrar.png" class="cerrar">
-            <img src="img/foto1_galeria.jpg" class="agregar_imagen">
-        </section>
-
-        <section class="contenedor" id="exp">
-            <h2 class="subtitulo">Exp</h2>
-        </section>
-
     </main>
 
-    <footer id="contactos">
-        <div class="contenedor footer_cont">
-            <div class="contactanos">
+    <footer class="footer">
+        <div class="footer-content contenedor">
+            <div class="contactos">
                 <h2 class="brand">Elias Cortes</h2>
                 <p>Welder experto</p>
             </div>
+            
             <div class="redes">
                 <a href="https://www.facebook.com/profile.php?id=100063567041844" class="icono_redes"><i class='bx bxl-facebook-square'></i></a>
                 <a href="" class="icono_redes"><i class='bx bxl-instagram' ></i></a>
                 <a href="" class="icono_redes"><i class='bx bxl-tiktok' ></i></a>
             </div>
         </div>
-        <div class="line"></div>
+        <!-- <div class="line"></div> -->
     </footer>
 
-
-    <script src="JavaScript/menu.js"></script>
-    <script src="JavaScript/galeria.js"></script>
 </body>
 </html>
